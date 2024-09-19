@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Базовый HTML | Third_page | Homework 2`</title>
+
+    <link rel="stylesheet" href="./style.css" />
+    <script src="./app.js" defer></script>
+  </head>
+
+  <body>
+    <header class="header">
+      <nav class="nav header__nav">
+        <ul class="nav__list">
+          <li class="nav__list-item">
+            <a href="index.html#intro">Введение</a>
+          </li>
+          <li class="nav__list-item">
+            <a href="index.html#tools">Инструменты</a>
+          </li>
+          <li class="nav__list-item">
+            <a href="index.html#langs">Языки</a>
+          </li>
+          <li class="nav__list-item">
+            <a href="second_page.html">Перейти на 2 страницу</a>
+          </li>
+          <li class="nav__list-item">
+            <a href="third_page.html">Оставить комментарий</a>
+          </li>
+        </ul>
+      </nav>
+      <h1 class="header__title">Frontend разработка</h1>
+    </header>
+
+    <main class="main">
+      <form>
+        <label for="name">
+          Имя:
+          <input type="text" placeholder="Введите имя" id="name" />
+        </label>
+        <br />
+        <label for="surname">
+          Фамилия:
+          <input type="text" placeholder="Введите фамилию" id="surname" />
+        </label>
+        <br />
+        <label for="email">
+          Электронная почта:
+          <input type="text" placeholder="Введите email" id="email" />
+        </label>
+        <br />
+        <label for="bday">
+          Дата рождения
+          <input type="text" placeholder="Введите дату рождения" id="bday" />
+        </label>
+        <br />
+        <label for="exp">
+          Количество лет в сфере Frontend-разработки
+          <input type="number" placeholder="Введите количество лет" id="exp" />
+        </label>
+        <br />
+        <label for="comment">
+          Комментарий
+          <textarea
+            style="resize: none"
+            cols="30"
+            rows="10"
+            maxlength="200"
+            id="comment"
+          ></textarea>
+        </label>
+        <button type="submit" id="submit">Отправить</button>
+      </form>
+    </main>
+
+    <footer>
+      <nav class="nav footer__nav">
+        <ul class="nav__list">
+          <li class="nav__list-item">
+            <a href="index.html#intro">Введение</a>
+          </li>
+          <li class="nav__list-item">
+            <a href="index.html#tools">Инструменты</a>
+          </li>
+          <li class="nav__list-item">
+            <a href="index.html#langs">Языки</a>
+          </li>
+          <li class="nav__list-item">
+            <a href="second_page.html">Перейти на 2 страницу</a>
+          </li>
+          <li class="nav__list-item">
+            <a href="third_page.html">Оставить комментарий</a>
+          </li>
+        </ul>
+      </nav>
+    </footer>
+  </body>
+</html>
